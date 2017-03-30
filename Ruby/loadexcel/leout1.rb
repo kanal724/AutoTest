@@ -18,23 +18,23 @@ require 'byebug'
 		works2=workbook.worksheets(2)
 		#worksheet=workbook.worksheets("sheet name") 打开表名
 		#读取excel文件
-		row=2
+
 		row2=2
 	#~ end
 
 	#~ it "read excel" do
 	while works2.range("a#{row2}").value
 		
-		eid=works2.range("a#{row2}")#.value.to_s
-		#~ eid=eidin.value.to_s
-		emsg=works2.range("b#{row2}")#.value.to_s
-		#~ emsg=emsgin.value.to_s
-		
+		eidin=works2.range("a#{row2}")#.value.to_s
+		eid=eidin.value.to_s
+		emsgin=works2.range("b#{row2}")#.value.to_s
+		emsg=emsgin.value.to_s
+		row=2
 		while worksheet.range("a#{row}").value
 			#选择帐号，把第一列的值做为帐号
 			#~ emailIpt = dr.find_element(:id => 'ctl00_holderLeft_txt_email')
 			
-			emailIpt = dr.find_element(:id => eid.value.to_s)
+			emailIpt = dr.find_element(:id => eid)
 			emailIpt.send_keys worksheet.range("a#{row}").value.to_s
    
 			#选择密码，将第二列值做为密码
@@ -49,7 +49,7 @@ require 'byebug'
 			
 			#输入错误信息至excel
 			#~ msgopt= dr.find_element(:id,'tip_email').text
-			msgopt= dr.find_element(:id,emsg.value.to_s).text
+			msgopt= dr.find_element(:id,emsg).text
 			worksheet.range("d#{row}").value = msgopt
 			#~ worksheet.range("f#{row}").value = ['=IF(','c#{row}=d#{row}',',"P","F")']
 			#~ puts msgopt.text
@@ -83,7 +83,6 @@ require 'byebug'
 							ee.value=['F']
 			end
 
-
 			row+=1
 			emailIpt.clear()
 			#~ pwdInput.clear()
@@ -92,8 +91,8 @@ require 'byebug'
 			
 		end
 		
-		puts eid.text
-		puts emsg.text
+		#~ puts eid.text
+		#~ puts emsg.text
 		row2+=1
 	end
 
