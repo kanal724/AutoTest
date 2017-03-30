@@ -11,7 +11,7 @@ require 'win32ole'
 		dr.navigate.to url
 		sleep 3
 		excel = WIN32OLE.new("excel.application")
-		filepath="D:\\loadexcel\\Data.xlsx" #路径用两斜杠
+		filepath="F:\\autotest\\ruby\\loadexcel\\Data.xlsx" #路径用两斜杠
 		workbook = excel.workbooks.open(filepath)
 		worksheet=workbook.worksheets(1)
 		#worksheet=workbook.worksheets("sheet name") 打开表名
@@ -40,7 +40,32 @@ require 'win32ole'
 			worksheet.range("d#{row}").value = msgopt
 			#~ worksheet.range("f#{row}").value = ['=IF(','c#{row}=d#{row}',',"P","F")']
 			#~ puts msgopt.text
-			
+					cc=worksheet.range("c#{row}").value
+		dd=worksheet.range("d#{row}").value
+		ee=worksheet.range("e#{row}")
+		
+		#~ puts cc
+		#~ puts dd
+		
+		#~ if  cc.eql? dd
+			#~ worksheet.range("e#{row}").value=['P']
+			#~ elsif cc.nil?
+				#~ worksheet.range("e#{row}").value=['']
+				#~ elsif dd.nil?
+					#~ worksheet.range("e#{row}").value=['']
+					#~ else
+						#~ worksheet.range("e#{row}").value=['F']
+		#~ end
+
+		if  cc.eql? dd
+			ee.value=['P']
+			elsif cc.nil?
+				ee.value=['']
+				elsif dd.nil?
+					ee.value=['']
+					else
+						ee.value=['F']
+		end
 						
 			
 			row+=1
