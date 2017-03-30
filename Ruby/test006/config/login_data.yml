@@ -1,0 +1,41 @@
+﻿data:  
+  mainPage:  
+    url: https://passport.cnblogs.com/register.aspx
+    title: 欢迎加入博客园 
+  
+  login:  
+    wrong:  
+      username: test  
+      #~ password: test  
+      message: Email格式错误，请重新输入
+    #~ wrong:  
+      #~ username: test  
+      #~ password: test  
+      #~ message: 
+      
+    #~ allNotExist:  
+      #~ username:
+      #~ password:
+      #~ message: 您还没有输入帐号！
+  
+    usernameNotExist:  
+      username:
+      #~ password: test  
+      message: 不可为空
+  
+    #~ passwordNotExist:  
+      #~ username: 116981805  
+      #~ password:
+      #~ message: Email格式错误，请重新输入
+      
+    usernameRight:  
+      username: 228@dd.com
+      #~ password:
+      message: 输入成功
+      
+      
+    unAlreadyExists:  
+      username: 116981805@qq.com
+      #~ password: test  
+      message: <strong>"116981805@qq.com</strong>"已存在，请使用其它邮箱
+      

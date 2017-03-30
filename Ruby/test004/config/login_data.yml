@@ -1,0 +1,10 @@
+﻿data:  
+  mainPage:  
+    url: http://im.qq.com
+    title: Im QQ - 每一天，乐在沟通
+  
+  login:  
+    wrong:  
+      username: test  
+      password: test  
+      message: 请输入正确的帐号！
