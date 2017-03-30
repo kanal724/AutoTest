@@ -2,11 +2,11 @@
 import pandas as pd
 import time
 from selenium import webdriver
-df1 = pd.read_excel("D:\\python test excel\\401.xlsx") # 把excel内容读取为DataFrame对象
+df1 = pd.read_excel("F:\\AutoTest\\Python\\401.xlsx") # 把excel内容读取为DataFrame对象
 #print (df1)
 #print "执行的excel中总共有%d列数据" %len(df1.columns)
 #print "执行的excel中总共有%d行数据" %len(df1)
-df2 = pd.read_excel("D:\\python test excel\\register_Inputbox_ID.xlsx")
+df2 = pd.read_excel("F:\\AutoTest\\Python\\register_Inputbox_ID.xlsx")
 #print (df2)
 #print "ID的excel中总共有%d列数据" %len(df2.columns)
 #print "ID的excel中总共有%d行数据" %len(df2)
@@ -29,4 +29,4 @@ for a in range(0,len(df2)):
     for index, word in enumerate(list(df1[inputbox_ID])):  # 遍历df1中inputbox_ID下的所有值
         Email_results[index] = Email(word)  # 把搜索结果写入list
         df1[tips_ID] = Email_results  # 把list写入df1相对应的tips_ID下
-df1.to_excel("D:\\python test excel\\403.xlsx", index=False)  # 把df1另存为excel
+df1.to_excel("F:\\AutoTest\\Python\\403.xlsx", index=False)  # 把df1另存为excel
