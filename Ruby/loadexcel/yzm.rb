@@ -14,20 +14,28 @@ require 'byebug'
 		pword = dr.find_element(:name,'password')
 		pword.send_keys ("123456")#.text
 		sleep 5
+		
+		#~ ybutton=dr.find_element(:xpath,"/html/body/div[1]/div/form/fieldset/div[4]/div/input")
+		
+		#~ puts ybutton.text
+		
+		
+		#想办法判断验证码输入框，未成功
+		#~ while ybutton
+		  #~ if ybutton < 4
+			#~ sleep 5
+			#~ else
+				#~ break
+			#~ end
+		#~ end
+		
+		
+		
 		lbutton=dr.find_element(:xpath,"/html/body/div[1]/div/form/fieldset/button")
 		lbutton.click
 		sleep 2
-		#~ HLSD='http://web.rd.lambor.ptg/Main/System/SystemBonusSetAdd'
-		#~ dr.navigate.to HLSD
-		
-		#点击【红利设定（站长）】
-		xtgl=dr.find_element(:xpath,"/html/body/div[1]/div[1]/div[1]/div/div/ul/li[4]/a/span")
-		xtgl.click
-		hb=dr.find_element(:xpath,"/html/body/div[1]/div[1]/div[1]/div/div/ul/li[4]/ul/li[6]/a")
-		hb.click
-		sleep 2
-		xjhl=dr.find_element(:xpath,"/html/body/div[1]/div[2]/div/div/div/div[2]/div/a")
-		xjhl.click
+		HLSD='http://web.rd.lambor.ptg/Main/System/SystemBonusSetAdd'
+		dr.navigate.to HLSD
 		
 		excel = WIN32OLE.new("excel.application")
 		filepath="F:\\autotest\\ruby\\loadexcel\\HLSDData.xlsx" #路径用两斜杠
@@ -45,7 +53,7 @@ require 'byebug'
 	#根据第一张表的a列第二行开始做while循环
 	while works2.range("a#{eler}").value 
 		
-		worksheet=workbook.worksheets(iptsh)#读取"iptsh(变量)个sheet的数据
+		worksheet=workbook.worksheets(iptsh)
 		
 		eidin=works2.range("a#{eler}")#.value.to_s
 		eid=eidin.value.to_s
@@ -77,7 +85,7 @@ require 'byebug'
 			worksheet.range("d#{inr}").value = msgopt #将错误信息输入到excel的“第d列第inr(变量)行“单元格
 			#~ worksheet.range("f#{inr}").value = ['=IF(','c#{row}=d#{row}',',"P","F")']
 			#~ puts msgopt.text
-
+		
 		#~ if  cc.eql? dd
 			#~ worksheet.range("e#{inr}").value=['P']
 			#~ elsif cc.nil?
@@ -103,8 +111,6 @@ require 'byebug'
 			end
 
 			inr+=1 #inr(变量)，循环+1
-			
-			sleep 0.5
 			
 			ipt.clear() #清空输入框数据
    
