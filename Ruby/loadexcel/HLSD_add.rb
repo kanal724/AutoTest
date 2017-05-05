@@ -107,6 +107,8 @@ require 'byebug'
 			sleep 0.5
 			
 			ipt.clear() #清空输入框数据
+			
+			#~ dr.clear(:name=> eid)
    
 			sleep 0.5
 			
