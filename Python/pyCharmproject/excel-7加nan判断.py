@@ -3,6 +3,7 @@ import pandas as pd
 import time
 from selenium import webdriver
 import os
+#import numpy as np
 
 df1 = pd.read_excel("F:\\AutoTest\\Python\\401.xlsx")  # 把excel内容读取为DataFrame对象
 # print (df1)
@@ -25,11 +26,10 @@ for a in range(0, len(df2)):
     tips_ID = df2.iloc[a, 1]
     # print tips_ID
     Email_results = list(df1[tips_ID])  # 由df1中相对应的tips_ID创建一个列表
-
+    #if pd.isnull(inputbox_ID) #需要增加判断当单元格无数据时应该重新循环（未添加）
+        #continue
 
     def DisplayName(word):
-        # if word == None #需要增加判断当单元格无数据时应该重新循环（未添加）
-        # print df2.iloc[10,1]
 
         driver.find_element_by_id(inputbox_ID).clear()  # 清空搜索框
         driver.find_element_by_id(inputbox_ID).send_keys(word)  # 输入关键词
