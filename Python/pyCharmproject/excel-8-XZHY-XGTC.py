@@ -48,21 +48,27 @@ for a in range(0,len(df2)):
             driver.find_element_by_xpath(inputbox_ID).send_keys(word)  # 输入关键词
             driver.find_element_by_xpath("//*[@id=\"myModal_editmember\"]/div[2]/div/div").click()
             time.sleep(1)  # 等待
-            dd = driver.find_element_by_xpath(tips_ID).get_attribute("class")
             c = '/span'
             m = tips_ID+c
-            try:
-                driver.find_element_by_xpath(m)
-                a = True
-            except:
-                a = False
-            if a == False:
-                result = "输入符合规范"
-                print result
-            elif a == True and dd == 'errorinfo':
+            Z1 = '/a[1]'
+            Z2 = '/a[2]'
+            lwem = '//*[@id="myModal_editmember"]/div[2]/form/div/div[4]'
+            if tips_ID == lwem:
+                ddZ1 = driver.find_element_by_xpath(tips_ID + Z1).get_attribute("class")
+                ddZ2 = driver.find_element_by_xpath(tips_ID + Z2).get_attribute("class")
+                print ddZ1
+                print ddZ2
+            else:
+                dd = driver.find_element_by_xpath(tips_ID).get_attribute("class")
+                print dd
+            if tips_ID == lwem and ddZ1 == 'errorinfo' and ddZ2 == 'errorinfo ng-hide':
+                result = driver.find_element_by_xpath(tips_ID + Z1).get_attribute("data-original-title")
+            elif tips_ID == lwem and ddZ1 == 'errorinfo ng-hide' and ddZ2 == 'errorinfo':
+                result = driver.find_element_by_xpath(tips_ID + Z2).get_attribute("data-original-title")
+            elif dd == 'errorinfo':
                 result = driver.find_element_by_xpath(tips_ID).get_attribute("data-original-title")  # 获取提示信息
                 #print result
-            elif a == True and dd == 'errorinfo ng-hide':
+            elif dd == 'errorinfo ng-hide':
                 result = ""
             Email_results[index] = result  # 把搜索结果写入list
 

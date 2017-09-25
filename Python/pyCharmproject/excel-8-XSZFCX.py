@@ -68,7 +68,7 @@ for a in range(0,len(df2)):
             except:
                 a = False
             if a == False:
-                result = "输入符合规范"
+                result = "输入符合规范"shi
                 print result
             elif a == True and tips_ID == '//*[@id=\"myModal2\"]/div[2]/div/div[2]/form/div[2]/a[1]' and ee1 == 'errorinfo ng-hide' and ee2 == 'errorinfo':
                 result = driver.find_element_by_xpath(tips_ID_ee2).get_attribute("data-original-title")

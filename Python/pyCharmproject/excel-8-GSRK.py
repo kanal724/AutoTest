@@ -44,7 +44,7 @@ for a in range(0,len(df2)):
             print "该位置不为空"
             driver.find_element_by_xpath(inputbox_ID).clear()  # 清空搜索框
             driver.find_element_by_xpath(inputbox_ID).send_keys(word)  # 输入关键词
-            driver.find_element_by_xpath("/html/body/div[1]/div[2]/div/div/div/div[1]").click()
+            driver.find_element_by_xpath("/html/body/div[1]/div[2]/div[1]/div/div/div[1]").click()
             time.sleep(1)  # 等待
             dd = driver.find_element_by_xpath(tips_ID).get_attribute("class")
             c = '/span'
