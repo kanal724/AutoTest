@@ -1,5 +1,5 @@
 # coding=utf-8
-#新增会员
+#新增会员-手机正则
 import pandas as pd
 import time
 from selenium import webdriver
@@ -7,18 +7,18 @@ import numpy as np
 import os
 df1 = pd.read_excel("F:\\AutoTest\\Python\\XZHY.xlsx")   # 把excel内容读取为DataFrame对象
 
-df2 = pd.read_excel("F:\\AutoTest\\Python\\lambor_Inputbox_XZHY.xlsx")
+df2 = pd.read_excel("F:\\AutoTest\\Python\\lambor_Inputbox_XZHY_SJ.xlsx")
 
 driver = webdriver.Firefox()  # 创建webdriver对象，调用火狐
-driver.get("http://backoffice.qc.lambor.ptg/")  # 访问网站
+driver.get("http://50011.backoffice.qc.lambor.ptg/")  # 访问网站
 time.sleep(3)
 driver.find_element_by_xpath("/html/body/div[1]/div[1]/form/fieldset/div[2]/div/input").send_keys("TK001")
 driver.find_element_by_xpath("/html/body/div[1]/div[1]/form/fieldset/div[4]/div/input").send_keys("0000aaaaAAAA")
-driver.find_element_by_xpath("/html/body/div[1]/div[1]/form/fieldset/div[7]/div/input").send_keys("94qa")
+driver.find_element_by_xpath("/html/body/div[1]/div[1]/form/fieldset/div[6]/div[1]/input").send_keys("94qa")
 time.sleep(3)
-driver.find_element_by_xpath("/html/body/div[1]/div[1]/form/fieldset/div[9]/button").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[1]/form/fieldset/div[8]/button").click()
 time.sleep(3)
-driver.get("http://backoffice.qc.lambor.ptg/Main/Member/MemberAdd")
+driver.get("http://50011.backoffice.qc.lambor.ptg/Main/Member/MemberAdd")
 time.sleep(5)
 '''
 tips_ID = '/html/body/div[1]/div[2]/div/div/div/form/div[3]/div[2]/a'
@@ -129,7 +129,7 @@ for a in range(0, len(df2)):
 
             df1[tips_ID] = Email_results  # 把list写入df1相对应的tips_ID下
 
-df1.to_excel("F:\\AutoTest\\Python\\OUTXZHY2.xlsx", index=False)  # 把df1另存为excel
+df1.to_excel("F:\\AutoTest\\Python\\OUTXZHY_SJ.xlsx", index=False)  # 把df1另存为excel
 time.sleep(3)
 driver.quit()
 # if os.system() #先判断是否有“geckodriver.exe”(暂时没有找到一个简单的方法)
