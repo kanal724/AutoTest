@@ -1,63 +1,90 @@
-1510818583857	geckodriver	INFO	Listening on 127.0.0.1:9821
-1510818585871	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1510818586524	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
-1510818587093	Marionette	INFO	Enabled via --marionette
-[Parent 19476] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 20364] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 20364] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1510818589604	Marionette	INFO	Listening on port 9829
-1510818589634	Marionette	WARN	TLS certificate errors will be ignored for this session
-1510818589670	Marionette	DEBUG	Register listener.js for window 6442450945
-1510818589705	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1510818592818	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1510818592818	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1510818596909	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://50011.backoffice.qc.lambor.ptg/"
-1510818596915	Marionette	DEBUG	Received DOM event "pageshow" for "http://50011.backoffice.qc.lambor.ptg/"
-1510818603318	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1510818606326	Marionette	DEBUG	Received DOM event "beforeunload" for "http://50011.backoffice.qc.lambor.ptg/Main/"
-1510818606431	Marionette	DEBUG	Received DOM event "pagehide" for "http://50011.backoffice.qc.lambor.ptg/Main/"
-1510818606432	Marionette	DEBUG	Received DOM event "unload" for "http://50011.backoffice.qc.lambor.ptg/Main/"
-1510818606437	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://backoffice.qc.lambor.ptg/Main/Member/MemberAdd"
-1510818606442	Marionette	DEBUG	Received DOM event "pageshow" for "http://backoffice.qc.lambor.ptg/Main/Member/MemberAdd"
-1510818609115	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
-[Parent 19476] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 19368] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 20296] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
-[GPU 17396] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512109620949	geckodriver	INFO	Listening on 127.0.0.1:6531
+1512109622961	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1512109623260	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1512109623835	Marionette	INFO	Enabled via --marionette
+[Child 16924] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400FC,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
 
-1510818611448	geckodriver::marionette	ERROR	Failed to kill browser process
- NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
-JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/extension-process-script.js, line 339: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+1512109626840	Marionette	INFO	Listening on port 6539
+1512109627142	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512109627177	Marionette	DEBUG	Register listener.js for window 4294967297
+1512109627210	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512109627315	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512109627316	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512109630934	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://50011.backoffice.qc.lambor.ptg/"
+1512109630939	Marionette	DEBUG	Received DOM event "pageshow" for "http://50011.backoffice.qc.lambor.ptg/"
+1512109637311	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109639319	Marionette	DEBUG	Received DOM event "beforeunload" for "http://50011.backoffice.qc.lambor.ptg/Main/"
+1512109639374	Marionette	DEBUG	Received DOM event "pagehide" for "http://50011.backoffice.qc.lambor.ptg/Main/"
+1512109639375	Marionette	DEBUG	Received DOM event "unload" for "http://50011.backoffice.qc.lambor.ptg/Main/"
+1512109639602	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://50011.backoffice.qc.lambor.ptg/Main/System/SystemManagerSetting"
+1512109639607	Marionette	DEBUG	Received DOM event "pageshow" for "http://50011.backoffice.qc.lambor.ptg/Main/System/SystemManagerSetting"
+1512109641968	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109644206	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109650589	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109652955	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109655254	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109657635	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109659939	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109662271	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109664567	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109666865	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109669202	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109671550	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109673852	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109676209	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109678519	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109680846	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109683192	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109685504	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109687864	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109690160	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109692460	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109694805	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109697120	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109699488	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109701855	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109704150	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109706454	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109708794	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109711120	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109713427	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109715766	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109718110	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109720416	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109722754	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109725057	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109727426	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109729725	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109732062	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109734428	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109736728	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109739031	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109741374	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109743672	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109745987	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 378: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+1512109748330	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109750629	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109752938	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109755273	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109757569	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109759916	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109762285	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109764586	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109766884	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109769219	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109771525	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109773884	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109776263	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512109781204	Marionette	INFO	New connections will no longer be accepted
+[Parent 5960] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+navigation has been detected
+1512096130082	Marionette	INFO	New connections will no longer be accepted
+mium/src/chrome/common/ipc_channel_win.cc, line 346
+ILE_NOT_FOUND) [nsIJumpListShortcut.app]
 JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
 JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
 JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]

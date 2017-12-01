@@ -5,9 +5,9 @@ import time
 from selenium import webdriver
 import numpy as np
 import os
-df1 = pd.read_excel("F:\\AutoTest\\Python\\XZHY_SJ.xlsx")   # 把excel内容读取为DataFrame对象
+df1 = pd.read_excel("F:\\AutoTest\\Python\\XZDL_SJ.xlsx")   # 把excel内容读取为DataFrame对象
 
-df2 = pd.read_excel("F:\\AutoTest\\Python\\lambor_Inputbox_XZHY_SJ.xlsx")
+df2 = pd.read_excel("F:\\AutoTest\\Python\\lambor_Inputbox_XZDL_SJ.xlsx")
 
 driver = webdriver.Firefox()  # 创建webdriver对象，调用火狐
 driver.get("http://50011.backoffice.qc.lambor.ptg/")  # 访问网站
@@ -18,7 +18,7 @@ driver.find_element_by_xpath("/html/body/div[1]/div[1]/form/fieldset/div[6]/div[
 time.sleep(3)
 driver.find_element_by_xpath("/html/body/div[1]/div[1]/form/fieldset/div[8]/button").click()
 time.sleep(3)
-driver.get("http://50011.backoffice.qc.lambor.ptg/Main/Member/MemberAdd")
+driver.get("http://50011.backoffice.qc.lambor.ptg/Main/Agent/AgentAdd")
 time.sleep(5)
 '''
 tips_ID = '/html/body/div[1]/div[2]/div/div/div/form/div[3]/div[2]/a'
@@ -88,7 +88,7 @@ for a in range(0, len(df2)):
             driver.find_element_by_xpath(inputbox_ID).clear()  # 清空搜索框
             driver.find_element_by_xpath(inputbox_ID).send_keys(word)  # 输入关键词
             time.sleep(1)  # 等待
-            driver.find_element_by_xpath("/html/body/div[1]/div[3]/div/div/div/div/div[2]/div/i").click()
+            driver.find_element_by_xpath("/html/body/div[1]/div[3]/div/div/div/div/div[1]").click()
             time.sleep(1)  # 等待
             '''if tips_ID == lw1:
                 ddZd = driver.find_element_by_xpath(tips_ID + Zd).get_attribute("class")
@@ -139,7 +139,7 @@ for a in range(0, len(df2)):
 
             df1[tips_ID] = Email_results  # 把list写入df1相对应的tips_ID下
 
-df1.to_excel("F:\\AutoTest\\Python\\OUTXZHY_SJ.xlsx", index=False)  # 把df1另存为excel
+df1.to_excel("F:\\AutoTest\\Python\\OUTXZDL_SJ.xlsx", index=False)  # 把df1另存为excel
 time.sleep(3)
 driver.quit()
 # if os.system() #先判断是否有“geckodriver.exe”(暂时没有找到一个简单的方法)

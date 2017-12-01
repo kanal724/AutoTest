@@ -12,21 +12,29 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XZHY11.coverage" NAME="excel-8-XZHY11 Coverage Results" MODIFIED="1505793239434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_GSRK.coverage" NAME="excel-8-GSRK Coverage Results" MODIFIED="1505893465771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XZHY_XGTC_YH.coverage" NAME="excel-8-XZHY-XGTC-YH Coverage Results" MODIFIED="1505982231668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XZHY33.coverage" NAME="excel-8-XZHY33 Coverage Results" MODIFIED="1505889920915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_HLHD_XGTC.coverage" NAME="excel-8-HLHD-XGTC Coverage Results" MODIFIED="1505898094840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XZDL_SJ.coverage" NAME="excel-8-XZDL-SJ Coverage Results" MODIFIED="1512094653777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_TZTJBB.coverage" NAME="excel-8-TZTJBB Coverage Results" MODIFIED="1505902652124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XSZFCX.coverage" NAME="excel-8-XSZFCX Coverage Results" MODIFIED="1505903402451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_HYCX_JJSX.coverage" NAME="excel-8-HYCX-JJSX Coverage Results" MODIFIED="1505901638875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XZHY.coverage" NAME="excel-8-XZHY Coverage Results" MODIFIED="1505872639450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyCharmproject$houtai3_XZ_GSRK.coverage" NAME="houtai3-XZ-GSRK Coverage Results" MODIFIED="1501126938992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XZHY_XGTC.coverage" NAME="excel-8-XZHY-XGTC Coverage Results" MODIFIED="1505982031560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XZHY22.coverage" NAME="excel-8-XZHY22 Coverage Results" MODIFIED="1505794389860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_HLHD.coverage" NAME="excel-8-HLHD Coverage Results" MODIFIED="1505897542984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XZHY_XGTC11.coverage" NAME="excel-8-XZHY-XGTC11 Coverage Results" MODIFIED="1505966831816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XZDL_XGTC_SJ.coverage" NAME="excel-8-XZDL-XGTC-SJ Coverage Results" MODIFIED="1512095969072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XZHY_SJ.coverage" NAME="excel-8-XZHY-SJ Coverage Results" MODIFIED="1512028341314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCharmproject$killpro.coverage" NAME="killpro Coverage Results" MODIFIED="1512025869460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XZHY_DXXG_SJ.coverage" NAME="excel-8-XZHY-DXXG-SJ Coverage Results" MODIFIED="1512099322083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XZHY_XGTC_SJ.coverage" NAME="excel-8-XZHY-XGTC-SJ Coverage Results" MODIFIED="1512091933199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XZHY_XGTC_YH.coverage" NAME="excel-8-XZHY-XGTC-YH Coverage Results" MODIFIED="1505982231668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XZHY33.coverage" NAME="excel-8-XZHY33 Coverage Results" MODIFIED="1505889920915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XZHTRY_DXXG_SJ.coverage" NAME="excel-8-XZHTRY-DXXG-SJ Coverage Results" MODIFIED="1512109620308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XZHTRY_SJ.coverage" NAME="excel-8-XZHTRY-SJ Coverage Results" MODIFIED="1512097863226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_HYCX_JJSX.coverage" NAME="excel-8-HYCX-JJSX Coverage Results" MODIFIED="1505901638875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XZHY.coverage" NAME="excel-8-XZHY Coverage Results" MODIFIED="1505872639450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XZDL_DXXG_SJ.coverage" NAME="excel-8-XZDL-DXXG-SJ Coverage Results" MODIFIED="1512095363347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_HLHD.coverage" NAME="excel-8-HLHD Coverage Results" MODIFIED="1505897542984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_GSRK_XGTC.coverage" NAME="excel-8-GSRK-XGTC Coverage Results" MODIFIED="1505896700981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XZHY_SJ.coverage" NAME="excel-8-XZHY-SJ Coverage Results" MODIFIED="1510818583186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyCharmproject$killpro.coverage" NAME="killpro Coverage Results" MODIFIED="1505966463886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCharmproject$excel_8_XZHTRY_XGTC_SJ.coverage" NAME="excel-8-XZHTRY-XGTC-SJ Coverage Results" MODIFIED="1512109269244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -47,12 +55,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="excel-8-XZHY-SJ.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/excel-8-XZHY-SJ.py">
+      <file leaf-file-name="excel-8-XZHTRY-DXXG-SJ.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/excel-8-XZHTRY-DXXG-SJ.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="763">
-              <caret line="135" column="44" lean-forward="true" selection-start-line="135" selection-start-column="44" selection-end-line="135" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="198">
+              <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+              <folding>
+                <element signature="e#38#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="excel-8-XZHTRY-XGTC-SJ.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/excel-8-XZHTRY-XGTC-SJ.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+              <folding>
+                <element signature="e#33#52#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,6 +134,14 @@
         <option value="$PROJECT_DIR$/excel-8-XZHY-XGTC-YH.py" />
         <option value="$PROJECT_DIR$/excel-8-XZHY.py" />
         <option value="$PROJECT_DIR$/excel-8-XZHY-SJ.py" />
+        <option value="$PROJECT_DIR$/excel-8-XZHY-XGTC-SJ.py" />
+        <option value="$PROJECT_DIR$/excel-8-XZHY-DXXG-SJ.py" />
+        <option value="$PROJECT_DIR$/excel-8-XZDL-SJ.py" />
+        <option value="$PROJECT_DIR$/excel-8-XZDL-DXXG-SJ.py" />
+        <option value="$PROJECT_DIR$/excel-8-XZDL-XGTC-SJ.py" />
+        <option value="$PROJECT_DIR$/excel-8-XZHTRY-SJ.py" />
+        <option value="$PROJECT_DIR$/excel-8-XZHTRY-XGTC-SJ.py" />
+        <option value="$PROJECT_DIR$/excel-8-XZHTRY-DXXG-SJ.py" />
       </list>
     </option>
   </component>
@@ -161,6 +191,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,8 +204,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.excel-8-XZHY-SJ">
+  <component name="RunManager" selected="Python.excel-8-XZHTRY-DXXG-SJ">
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -407,7 +437,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="excel-8-XZHY-SJ" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="excel-8-XZDL-XGTC-SJ" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -420,12 +450,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyCharmproject" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel-8-XZHY-SJ.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel-8-XZDL-XGTC-SJ.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="excel-8-XZHY-XGTC-YH" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="excel-8-XZHTRY-DXXG-SJ" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -438,12 +468,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyCharmproject" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel-8-XZHY-XGTC-YH.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel-8-XZHTRY-DXXG-SJ.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="excel-8-XZHY-XGTC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="excel-8-XZHTRY-SJ" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -456,12 +486,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyCharmproject" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel-8-XZHY-XGTC.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel-8-XZHTRY-SJ.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="excel-8-XZHY-XGTC11" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="excel-8-XZHTRY-XGTC-SJ" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -474,12 +504,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyCharmproject" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel-8-XZHY-XGTC11.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel-8-XZHTRY-XGTC-SJ.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="killpro" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="excel-8-XZHY-DXXG-SJ" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -492,25 +522,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyCharmproject" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/killpro.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel-8-XZHY-DXXG-SJ.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.excel-8-XZHY-XGTC" />
-      <item index="1" class="java.lang.String" itemvalue="Python.excel-8-XZHY-XGTC11" />
-      <item index="2" class="java.lang.String" itemvalue="Python.killpro" />
-      <item index="3" class="java.lang.String" itemvalue="Python.excel-8-XZHY-XGTC-YH" />
-      <item index="4" class="java.lang.String" itemvalue="Python.excel-8-XZHY-SJ" />
+      <item index="0" class="java.lang.String" itemvalue="Python.excel-8-XZDL-XGTC-SJ" />
+      <item index="1" class="java.lang.String" itemvalue="Python.excel-8-XZHTRY-SJ" />
+      <item index="2" class="java.lang.String" itemvalue="Python.excel-8-XZHTRY-DXXG-SJ" />
+      <item index="3" class="java.lang.String" itemvalue="Python.excel-8-XZHY-DXXG-SJ" />
+      <item index="4" class="java.lang.String" itemvalue="Python.excel-8-XZHTRY-XGTC-SJ" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.excel-8-XZHY-SJ" />
-        <item index="1" class="java.lang.String" itemvalue="Python.excel-8-XZHY-XGTC-YH" />
-        <item index="2" class="java.lang.String" itemvalue="Python.excel-8-XZHY-XGTC" />
-        <item index="3" class="java.lang.String" itemvalue="Python.excel-8-XZHY-XGTC11" />
-        <item index="4" class="java.lang.String" itemvalue="Python.killpro" />
+        <item index="0" class="java.lang.String" itemvalue="Python.excel-8-XZHTRY-DXXG-SJ" />
+        <item index="1" class="java.lang.String" itemvalue="Python.excel-8-XZHTRY-XGTC-SJ" />
+        <item index="2" class="java.lang.String" itemvalue="Python.excel-8-XZHY-DXXG-SJ" />
+        <item index="3" class="java.lang.String" itemvalue="Python.excel-8-XZHTRY-SJ" />
+        <item index="4" class="java.lang.String" itemvalue="Python.excel-8-XZDL-XGTC-SJ" />
       </list>
     </recent_temporary>
   </component>
@@ -540,7 +570,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16204691" sideWeight="0.49459043" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1652452" sideWeight="0.49459043" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32049948" sideWeight="0.49573562" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33506763" sideWeight="0.49573562" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24104235" sideWeight="0.5042644" order="9" side_tool="true" content_ui="tabs" />
@@ -615,62 +645,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python27/Lib/site-packages/pandas/core/indexing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="1628" column="0" lean-forward="false" selection-start-line="1628" selection-start-column="0" selection-end-line="1628" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/common/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="149" column="37" lean-forward="true" selection-start-line="149" selection-start-column="37" selection-end-line="149" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/python_test/test/LX/LX1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/python_test/test/py--111/excel-7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/loadexcel/loadexcel11.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../excel-2222.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../excel-7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="22" column="71" lean-forward="false" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../excel-6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -925,13 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/excel-8-XZHY-XGTC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/excel-8-XZHY33.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -955,9 +922,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/excel-8-XZHY-SJ.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="763">
-          <caret line="135" column="44" lean-forward="true" selection-start-line="135" selection-start-column="44" selection-end-line="135" selection-end-column="44" />
+        <state relative-caret-position="18">
+          <caret line="57" column="63" lean-forward="false" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excel-8-XZHY-XGTC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excel-8-XZHY-XGTC-SJ.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="73" column="30" lean-forward="true" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excel-8-XZDL-SJ.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1235">
+          <caret line="34" column="73" lean-forward="true" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excel-8-XZDL-DXXG-SJ.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="134" column="0" lean-forward="true" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excel-8-XZDL-XGTC-SJ.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="31" column="15" lean-forward="true" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excel-8-XZHTRY-SJ.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2412">
+          <caret line="138" column="56" lean-forward="true" selection-start-line="138" selection-start-column="56" selection-end-line="138" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excel-8-XZHY-DXXG-SJ.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2412">
+          <caret line="134" column="0" lean-forward="true" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding>
+            <element signature="e#33#52#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excel-8-XZHTRY-XGTC-SJ.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding>
+            <element signature="e#33#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excel-8-XZHTRY-DXXG-SJ.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
